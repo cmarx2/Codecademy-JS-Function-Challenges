@@ -1,0 +1,6 @@
+const numImaginaryFriends = (number) => {
+  number = Math.round(number * 0.33) 
+ return number 
+  }
+  
+  console.log(numImaginaryFriends(20)) // Should print 6
