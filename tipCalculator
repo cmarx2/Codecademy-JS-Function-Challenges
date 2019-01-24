@@ -1,0 +1,21 @@
+const tipCalculator = (quality, total) => {
+  switch (quality) {
+    case 'bad':
+      return 0.05 * total;
+      break;
+    case 'ok':
+      return 0.15 * total;
+      break;
+    case 'good':
+      return 0.20 * total;
+      break;
+    case 'excellent':
+      return 0.30 * total;
+      break;
+      default:
+      return 0.18 * total;
+  }
+  
+}
+   
+  console.log(tipCalculator('what', 100));
